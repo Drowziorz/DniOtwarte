@@ -4,7 +4,7 @@ import numpy as np
 import HandTrackModule as htm
 import pyautogui
 
-wCam, hCam = 1280, 720
+wCam, hCam = 640, 480
 wScreen, hScreen = pyautogui.size()
 cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
